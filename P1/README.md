@@ -90,11 +90,12 @@ Grâce à ce tableau de bord interactif, l’entreprise peut :
 
 ## 📌 Auteur
 
-TOZO Koffi Géraud
-📫 [coco.geraud@gmail.com] 
+TOZO Koffi Géraud 
+
+📬 Retrouvez-moi sur [LinkedIn](www.linkedin.com/in/koffi-géraud-tozo-bb2b2829a)
 
 ---
 
 ## 📅 Date
 
-Juillet 2025
+Aout 2025

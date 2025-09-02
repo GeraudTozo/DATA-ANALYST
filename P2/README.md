@@ -1,12 +1,12 @@
-# 📊 Projet 2 — Analyse de la performance des employés - Projet RH orienté business
+# Projet 2 — Analyse de la performance des employés (Projet RH orienté business)
 
-## 📌 Problématique métier
+## Problématique métier
 
 Une entreprise souhaite optimiser sa gestion RH en analysant les scores de performance, l’engagement, la satisfaction, et d’autres facteurs liés au profil des employés.
 
 ---
 
-## 🧠 Objectifs du projet
+## Objectifs du projet
 
 - Identifier les variables qui influencent la performance des employés
 - Analyser la distribution des scores selon des variables démographiques et RH
@@ -39,11 +39,10 @@ Le projet suit une démarche analytique complète, avec un storytelling clair et
 - Sexe
 - Département
 - Statut professionnel
-- Statut marital  
 > Corrélations avec engagement, satisfaction, salaire
 
 ### 5. 🚨 Identification des profils atypiques
-> Isolation des employés très performants ou très faibles.  
+> Isolation des employés très performants ou moins performants.  
 > Étude de leurs caractéristiques : facteurs communs ? leviers à renforcer ou corriger ?
 
 ### 6. ✅ Recommandations RH
@@ -65,20 +64,22 @@ Le projet suit une démarche analytique complète, avec un storytelling clair et
 
 ---
 
-## 📎 Exemple de visualisations
+## Exemple de visualisations
 
 ![Répartition des performances](assets/performance.png)
+
 ![Heatmap de correlation](assets/heatmap_correlation.png)  
 
 ---
 
-## 🧠 Résultats clés
+## Résultats clés
 
+- La grande majorité des employés (**78,1%**) atteignent les objectifs fixés
+- La performance est liée au **statut d'emploi**
 - **L'engagement** est le facteur le plus lié à la performance (corrélation = 0.54)
 - **La satisfaction** a également un lien positif avec la performance
 - Les **employés très performants** sont mieux rémunérés, plus engagés et plus satisfaits
 - Les **sous-performants** montrent un manque d’engagement fort
-- Des recommandations RH sont proposées pour améliorer les performances globales
 
 ---
 
@@ -86,20 +87,14 @@ Le projet suit une démarche analytique complète, avec un storytelling clair et
 
 - [📥 Télécharger le notebook principal](notebook_projet_2.ipynb)
 
-- Consulter le notebook  : [![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GeraudTozo/DATA-ANALYST-PROJECT/blob/main/P2/notebook_projet_2.ipynb)
+- Consulter le notebook sur Colab  : [![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GeraudTozo/DATA-ANALYST-PROJECT/blob/main/P2/notebook_projet_2.ipynb)
 
-- `data/` : données brutes https://www.kaggle.com/datasets/rhuebner/human-resources-data-set
+- `Données brutes/` : https://www.kaggle.com/datasets/rhuebner/human-resources-data-set
 
 ---
 
-## 📌 Auteur
+## Auteur
 
 TOZO Koffi Géraud
 
 📬 Retrouvez-moi sur [LinkedIn](www.linkedin.com/in/koffi-géraud-tozo-bb2b2829a)
-
----
-
-## 📅 Date
-
-Juillet 2025

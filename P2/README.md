@@ -87,7 +87,7 @@ Le projet suit une démarche analytique complète, avec un storytelling clair et
 
 - [📥 Télécharger le notebook principal](notebook_projet_2.ipynb)
 
-- Consulter le notebook sur Colab  : [![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GeraudTozo/DATA-ANALYST-PROJECT/blob/main/P2/notebook_projet_2.ipynb)
+- Consulter le notebook sur Colab  : [![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GeraudTozo/DATA-ANALYST/blob/main/P2/notebook_projet_2.ipynb)
 
 - `Données brutes/` : https://www.kaggle.com/datasets/rhuebner/human-resources-data-set
 
@@ -97,4 +97,3 @@ Le projet suit une démarche analytique complète, avec un storytelling clair et
 
 TOZO Koffi Géraud
 
-📬 Retrouvez-moi sur [LinkedIn](www.linkedin.com/in/koffi-géraud-tozo-bb2b2829a)

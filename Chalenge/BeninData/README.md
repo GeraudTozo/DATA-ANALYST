@@ -32,7 +32,9 @@ Et tirer des conclusions nécessaires pour l’amélioration de la gestion des r
 - Identifier le **mode de paiement** plébiscité
 - Recommandations pour optimiser la **performance commerciale** des 200+ coopératives membres  
 
-![Dashboard](Dashboard.png)
+![VUE GENERALE](BENIN_1.JPG)
+
+![ANALYSE GENRE](BENIN_2.JPG)
 ---
 
 

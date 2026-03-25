@@ -29,13 +29,35 @@ J’ai construit un dashboard interactif pour analyser le système de santé au 
 
 ![VUE GENERALE](T1.JPG)
 
+L’analyse montre une capacité globale encore limitée :
+
+-les professionnels de santé restent en dessous des normes internationales
+-les infrastructures sont inégalement réparties
+-certaines préfectures sont clairement sous-dotées
+
+Problème clé : **un système structurellement contraint.**
+
+
 👉 Quelles sont les maladies qui exercent le plus de pression ?
 
-![VUE GENERALE](T1.JPG)
+![VUE GENERALE](T2.JPG)
+
+Les zones les plus vulnérables sont aussi celles où :
+
+-le paludisme ressort comme la principale pression sanitaire
+-d’autres maladies comme le choléra restent localement critiques.
+
+👉 Problème clé : **une charge sanitaire persistante et inégalement répartie.**
+
 
 👉 Quelles populations en subissent les conséquences ?
 
 ![VUE GENERALE](T3.JPG)
+
+Les zones les plus vulnérables sont aussi celles où :
+
+-la mortalité infantile est la plus élevée
+-la mortalité maternelle reste préoccupante
 
 
 ---
@@ -57,4 +79,4 @@ TOZO Koffi Géraud
 
 ## Date
 
-Septembre 2025
+Fevrier 2026

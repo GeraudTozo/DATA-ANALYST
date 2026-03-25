@@ -31,9 +31,9 @@ J’ai construit un dashboard interactif pour analyser le système de santé au 
 
 L’analyse montre une capacité globale encore limitée :
 
--les professionnels de santé restent en dessous des normes internationales
--les infrastructures sont inégalement réparties
--certaines préfectures sont clairement sous-dotées
+- les professionnels de santé restent en dessous des normes internationales
+- les infrastructures sont inégalement réparties
+- certaines préfectures sont clairement sous-dotées
 
 Problème clé : **un système structurellement contraint.**
 
@@ -44,8 +44,8 @@ Problème clé : **un système structurellement contraint.**
 
 Les zones les plus vulnérables sont aussi celles où :
 
--le paludisme ressort comme la principale pression sanitaire
--d’autres maladies comme le choléra restent localement critiques.
+- le paludisme ressort comme la principale pression sanitaire
+- d’autres maladies comme le choléra restent localement critiques.
 
 👉 Problème clé : **une charge sanitaire persistante et inégalement répartie.**
 
@@ -56,8 +56,8 @@ Les zones les plus vulnérables sont aussi celles où :
 
 Les zones les plus vulnérables sont aussi celles où :
 
--la mortalité infantile est la plus élevée
--la mortalité maternelle reste préoccupante
+- la mortalité infantile est la plus élevée
+- la mortalité maternelle reste préoccupante
 
 
 ---

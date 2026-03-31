@@ -1,0 +1,9 @@
+﻿ID_Vehicule,Type_Vehicule,Capacite_Tonnes,Capacite_M3,Consommation_Moyenne_L_100km,Annee_Fabrication,Cout_Maintenance_Annuel
+V001,Camion 19T,19.0,60,35,2020,5500
+V002,Camion 12T,12.0,40,28,2019,4200
+V003,Semi-remorque,25.0,80,42,2021,6800
+V004,Fourgon,3.5,15,18,2018,2500
+V005,Utilitaire,1.5,8,12,2020,1800
+V006,Camion 19T,19.0,60,36,2022,5800
+V007,Camion 12T,12.0,40,29,2021,4400
+V008,Mini-camion,5.0,20,20,2019,3000

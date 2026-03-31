@@ -1,0 +1,16 @@
+﻿ID_Route,Ville_Depart,Ville_Arrivee,Distance_km,Type_Route,Etat_Route
+R001,Lomé,Kara,420,Nationale,Bon
+R002,Lomé,Sokodé,340,Nationale,Moyen
+R003,Lomé,Atakpamé,165,Nationale,Bon
+R004,Kara,Dapaong,275,Nationale,Moyen
+R005,Sokodé,Kara,185,Régionale,Bon
+R006,Atakpamé,Sokodé,195,Régionale,Moyen
+R007,Lomé,Dapaong,620,Nationale,Difficile
+R008,Kara,Sokodé,235,Régionale,Bon
+R009,Lomé,Kpalimé,120,Régionale,Bon
+R010,Sokodé,Lomé,340,Nationale,Moyen
+R011,Dapaong,Kara,275,Nationale,Moyen
+R012,Lomé,Tsévié,35,Courte,Bon
+R013,Kara,Lomé,420,Nationale,Bon
+R014,Atakpamé,Lomé,165,Nationale,Bon
+R015,Lomé,Aného,45,Courte,Bon

@@ -1,0 +1,223 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    CHALLENGE DATA - TRANSPORT & LOGISTIQUE
+                      Analyse des performances d'un secteur
+                              de transport au Togo
+═══════════════════════════════════════════════════════════════════════════════
+
+CONTEXTE
+────────────────────────────────────────────────────────────────────────────
+
+Le secteur du transport et de la logistique au Togo connaît une croissance 
+importante avec l'expansion du commerce régional et international. Plusieurs 
+entreprises de transport opèrent sur le territoire national, offrant des 
+services de livraison de marchandises entre les principales villes du pays.
+
+Ce challenge vous place dans la peau d'un consultant en business intelligence 
+chargé d'analyser les performances du secteur sur la période 2020-2023. À partir 
+d'un ensemble de données relationnelles comprenant plus de 10 000 livraisons, 
+vous devrez identifier les entreprises les plus performantes, les routes les 
+plus rentables, l'efficacité opérationnelle des différents types de véhicules, 
+et proposer des recommandations stratégiques pour optimiser les opérations.
+
+
+STRUCTURE DES DONNÉES
+────────────────────────────────────────────────────────────────────────────
+
+Le jeu de données se compose de 5 fichiers CSV formant un modèle relationnel :
+
+TABLES DE DIMENSIONS :
+
+1. dim_entreprises.csv (6 entreprises)
+   - ID_Entreprise : Identifiant unique
+   - NomEntreprise : Nom de l'entreprise de transport
+   - Ville_Siege : Ville où se trouve le siège
+   - Annee_Creation : Année de création
+   - Nb_Employes : Nombre d'employés
+   - Specialite : Type de service (National, International, Express...)
+
+2. dim_routes.csv (15 routes)
+   - ID_Route : Identifiant unique
+   - Ville_Depart : Ville de départ
+   - Ville_Arrivee : Ville d'arrivée
+   - Distance_km : Distance en kilomètres
+   - Type_Route : Classification (Nationale, Régionale, Courte)
+   - Etat_Route : État de la route (Bon, Moyen, Difficile)
+
+3. dim_vehicules.csv (8 types de véhicules)
+   - ID_Vehicule : Identifiant unique
+   - Type_Vehicule : Type (Camion, Fourgon, Semi-remorque...)
+   - Capacite_Tonnes : Capacité de charge en tonnes
+   - Capacite_M3 : Capacité en mètres cubes
+   - Consommation_Moyenne_L_100km : Consommation au 100km
+   - Annee_Fabrication : Année de fabrication
+   - Cout_Maintenance_Annuel : Coût de maintenance annuel
+
+4. dim_clients.csv (500 clients)
+   - ID_Client : Identifiant unique
+   - Nom_Client : Nom du client
+   - Type_Client : Catégorie (Entreprise, PME, Commerce, Particulier, ONG...)
+   - Ville : Ville du client
+   - Date_Inscription : Date d'inscription
+   - Statut : Actif ou Inactif
+
+TABLE DE FAITS :
+
+5. fait_livraisons.csv (10 000 transactions sur 4 ans : 2020-2023)
+   - ID_Livraison : Identifiant unique de la livraison
+   - Date_Livraison : Date de la livraison
+   - ID_Entreprise : Référence vers dim_entreprises
+   - ID_Route : Référence vers dim_routes
+   - ID_Vehicule : Référence vers dim_vehicules
+   - ID_Client : Référence vers dim_clients
+   
+   Métriques opérationnelles :
+   - Distance_km : Distance parcourue
+   - Duree_heures : Durée du trajet
+   - Carburant_litres : Carburant consommé
+   - Poids_Tonnes : Poids transporté
+   - NbColis : Nombre de colis
+   
+   Métriques financières (en FCFA) :
+   - Cout_Carburant_FCFA
+   - Cout_Peage_FCFA
+   - Cout_Chauffeur_FCFA
+   - Cout_Maintenance_FCFA
+   - Cout_Assurance_FCFA
+   - Cout_Total_FCFA
+   - Prix_Facture_FCFA
+   - Marge_FCFA
+   - Taux_Marge_Pourcent
+   
+   Indicateurs qualité :
+   - Statut_Livraison : (Livrée, En retard, Annulée)
+   - Satisfaction_Client : Note de 1 à 5
+
+
+OBJECTIFS DU CHALLENGE
+────────────────────────────────────────────────────────────────────────────
+
+Les participants devront créer un rapport Power BI interactif comprenant 
+OBLIGATOIREMENT les analyses suivantes :
+
+
+1. ANALYSE DE RENTABILITÉ
+
+   ✓ Rentabilité par entreprise (CA, coûts, marges)
+   ✓ Évolution de la rentabilité sur les 4 années
+   ✓ Identification des entreprises les plus et moins performantes
+   ✓ Analyse des marges par type de client
+   ✓ Rentabilité par route (identifier les routes les plus lucratives)
+
+
+2. ANALYSE OPÉRATIONNELLE
+
+   ✓ Performance des véhicules (consommation réelle vs théorique)
+   ✓ Taux d'utilisation des capacités (poids/volume)
+   ✓ Efficacité par type de véhicule
+   ✓ Analyse des durées de livraison vs distance
+   ✓ Impact de l'état des routes sur les performances
+
+
+ 3. ANALYSE GÉOGRAPHIQUE
+
+   ✓ Cartographie des flux de transport
+   ✓ Villes de départ et d'arrivée les plus actives
+   ✓ Répartition géographique du chiffre d'affaires
+   ✓ Identification des corridors commerciaux stratégiques
+
+
+ 4. ANALYSE CLIENT
+
+   ✓ Segmentation des clients par type et comportement
+   ✓ Clients les plus rentables
+   ✓ Analyse de la satisfaction client
+   ✓ Taux de rétention et fidélisation
+   ✓ Corrélation entre type de client et rentabilité
+
+
+ 5. ANALYSE DES TENDANCES
+
+   ✓ Évolution du volume d'activité (nombre de livraisons)
+   ✓ Tendances saisonnières
+   ✓ Évolution des coûts (carburant, péages, maintenance)
+   ✓ Évolution du taux de livraisons réussies/retardées/annulées
+
+
+6. INDICATEURS CLÉS DE PERFORMANCE (KPI)
+
+   Créer des KPI visuels pour :
+   ✓ Chiffre d'affaires total et évolution
+   ✓ Marge globale et par segment
+   ✓ Taux de satisfaction client moyen
+   ✓ Taux de livraison réussie
+   ✓ Consommation moyenne de carburant
+   ✓ Distance totale parcourue
+   ✓ Nombre de clients actifs
+
+
+LIVRABLES ATTENDUS
+────────────────────────────────────────────────────────────────────────────
+
+1.  RAPPORT POWER BI (.pbix)
+   
+   - Modèle de données correctement structuré avec relations
+   - Au minimum 5-7 pages de rapport couvrant tous les axes d'analyse
+   - Visuels interactifs et filtres dynamiques
+   - Design professionnel et cohérent
+   - Navigation claire entre les pages
+
+
+2. 📄 NOTE D'ANALYSE STRATÉGIQUE (PDF ou Word - 3 à 5 pages)
+   
+   Sections obligatoires :
+   
+   a) SYNTHÈSE EXÉCUTIVE
+      → Résumé des principales conclusions (1 page max)
+   
+   b) ANALYSE DES PERFORMANCES
+      → Interprétation des résultats observés
+      → Identification des forces et faiblesses du secteur
+      → Analyse des entreprises leaders et suiveurs
+   
+   c) PROBLÉMATIQUES IDENTIFIÉES
+      → Points de friction opérationnels
+      → Inefficiences détectées
+      → Opportunités d'amélioration
+   
+   d) RECOMMANDATIONS STRATÉGIQUES
+      → Minimum 5 recommandations concrètes et actionnables
+      → Priorisation des actions (court/moyen/long terme)
+      → Estimation de l'impact attendu
+   
+   e) CONCLUSION
+      → Vision prospective pour le secteur
+
+
+
+
+
+
+CONSEILS ET BONNES PRATIQUES
+────────────────────────────────────────────────────────────────────────────
+ Modélisation :
+   - Vérifiez la cardinalité des relations (1:N)
+   - Utilisez une table calendrier pour les analyses temporelles
+   - Optimisez les types de données
+
+ Visualisation :
+   - Privilégiez la clarté à la complexité
+   - Utilisez des couleurs cohérentes et significatives
+   - Ajoutez des info-bulles informatives
+   - Limitez le nombre de visuels par page (3-5 max)
+
+Analyse :
+   - Commencez par une vue d'ensemble avant de détailler
+   - Croisez plusieurs dimensions pour des insights profonds
+   - Identifiez les corrélations et anomalies
+   - Pensez « business impact » dans vos recommandations
+
+Documentation :
+   - Soyez concis et précis
+   - Illustrez vos propos avec des chiffres du rapport
+   - Priorisez vos recommandations
+   - Pensez ROI et faisabilité
